@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafios de Programação</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Desafios de Programação</h1>
+
+        <div>
+            <h2>1. Sequência de Fibonacci</h2>
+            <label for="numeroFibonacci">Informe um número:</label>
+            <input type="number" id="numeroFibonacci">
+            <button onclick="verificarFibonacci()">Verificar</button>
+            <p id="resultadoFibonacci"></p>
+        </div>
+
+        <div id="faturamento">
+            <h2>2. Faturamento Diário</h2>
+            <p id="resultadoFaturamento"></p>
+        </div>
+
+        <div>
+            <h2>3. Faturamento por Estado</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Estado</th>
+                        <th>Percentual</th>
+                    </tr>
+                </thead>
+                <tbody id="percentuaisEstados"></tbody>
+            </table>
+        </div>
+
+        <div>
+            <h2>4. Inverter String</h2>
+            <label for="numeroFibonacci">Informe uma frase:</label>
+            <input type="text" id="inverterString">
+            <button onclick="invertStg()">Verificar</button>
+            <p>String invertida:</p>
+            <p><span id="stringInvertida"></span></p>
+        </div>
+
+    </div>
+
+    <script src="./scripts.js"></script>
+</body>
+</html>
